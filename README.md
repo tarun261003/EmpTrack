@@ -28,19 +28,20 @@
 
 ---
 
-## 📁 Project Structure
+📁 Project Structure
 
+EmpTrack/
 ├── src/
-│ ├── main/
-│ │ ├── java/ # Java source files
-│ │ │ └── com/praccrud/
-│ │ ├── resources/ # application.properties, etc.
-│ │ └── webapp/
-│ │ ├── index.html # Redirects to /employees
-│ │ └── static/css # Internal Bootstrap or styles
-├── target/ # Build artifacts (.jar)
-├── pom.xml # Maven dependencies
-└── README.md # This file
+│   ├── main/
+│   │   ├── java/                     # Java source files
+│   │   │   └── com/praccrud/
+│   │   ├── resources/               # application.properties, etc.
+│   │   └── webapp/
+│   │       ├── index.html           # Redirects to /employees
+│   │       └── static/css           # Internal Bootstrap or styles
+├── target/                          # Build artifacts (.jar)
+├── pom.xml                          # Maven dependencies
+└── README.md                        # This file
 
 
 
